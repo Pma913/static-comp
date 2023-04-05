@@ -1,0 +1,11 @@
+.header-left,
+.header-right {
+  display: flex;
+  background-color: blue;
+}
+
+.shares-link,
+.character-facts-link,
+.character-video-link {
+  display: flex;
+}
