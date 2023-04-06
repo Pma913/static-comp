@@ -1,11 +1,86 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #52489C;
+}
+
+.user-icon {
+  color: #59C3C3;
+}
+
+body {
+  background-color: #EBEBEB;
+}
+
 .header-left,
 .header-right {
   display: flex;
-  background-color: blue;
 }
 
-.shares-link,
-.character-facts-link,
-.character-video-link {
+.header-left {
+  align-items: flex-end;
+}
+
+.header-right {
+  flex-direction: column;
+}
+
+.link-text {
+  margin: 4px;
+}
+
+.link {
   display: flex;
+  height: 20%;
+}
+
+.title-display,
+.user-display {
+  display: flex;
+}
+
+.user-name {
+  margin: 5px 7px 10px 7px;
+}
+
+.user-icon {
+  height: 60%;
+}
+
+.dropdown-icon {
+  height: 45%;
+  margin-top: 3px;
+}
+
+.app-title,
+.header-left {
+  margin-bottom: 20px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: auto;
+  column-gap: 10px;
+  row-gap: 15px;
+}
+
+.url {
+  overflow-wrap: break-word;
+}
+
+.card-content {
+  background-color: #F45B69;
+}
+
+.image-container {
+  background-color: #4062BB;
+}
+
+.points {
+  margin-bottom: 0;
+}
+
+.recipients-name {
+  margin-top: 0;
 }
