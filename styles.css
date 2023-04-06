@@ -73,8 +73,16 @@ main {
   background-color: #F45B69;
 }
 
+.point-container {
+  position: absolute;
+  top: 0;
+  right: 5px;
+}
+
 .image-container {
+  position: relative;
   background-color: #4062BB;
+  display: flex;
 }
 
 .points {
@@ -83,4 +91,9 @@ main {
 
 .recipients-name {
   margin-top: 0;
+}
+
+.character-image {
+  min-width: 100%;
+  min-height: 43%;
 }
