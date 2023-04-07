@@ -10,8 +10,7 @@ h3 {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #eee52b;
-  border: solid 4px #e50c20;
+  background-color: #fcdd60;
 }
 
 .user-icon {
@@ -19,7 +18,7 @@ header {
 }
 
 body {
-  background-color: #e3dbd5;
+  background-color: #9ac7e8;
 }
 
 .header-left,
@@ -85,8 +84,7 @@ body {
 }
 
 .card-content {
-  background-color: #eee52b;
-  border: solid 4px #e50c20; 
+  background-color: #fcdd60;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -109,6 +107,7 @@ body {
 
 h2 {
   margin: 30px 30px;
+  color: #f0262a; 
 }
 
 .points {
