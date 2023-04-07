@@ -1,15 +1,15 @@
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #52489C;
+  background-color: #8CADA7;
 }
 
 .user-icon {
-  color: #59C3C3;
+  color: #8CADA7;
 }
 
 body {
-  background-color: #EBEBEB;
+  background-color: #B7990D;
 }
 
 .header-left,
@@ -74,7 +74,7 @@ body {
 }
 
 .card-content {
-  background-color: #F45B69;
+  background-color: #F2F4CB;
 }
 
 .point-container {
