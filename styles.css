@@ -57,7 +57,11 @@ body {
   margin-bottom: 20px;
 }
 
-main {
+.grid-container {
+  margin-right: 30px;
+}
+
+.grid {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: auto;
@@ -83,6 +87,8 @@ main {
   position: relative;
   background-color: #4062BB;
   display: flex;
+  max-height: 145px;
+  
 }
 
 .points {
@@ -95,5 +101,7 @@ main {
 
 .character-image {
   min-width: 100%;
-  min-height: 43%;
+  min-height: 145px;
+  object-fit: cover;
+  object-position: 50% 10%;
 }
