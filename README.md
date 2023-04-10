@@ -1,4 +1,5 @@
 # static-comp
+[pages](https://pma913.github.io/static-comp/)
 ## Abstract
 Recreate the layout of a given comp. Create foundation for website with HTML and CSS.
 ## Technologies
